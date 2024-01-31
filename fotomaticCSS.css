@@ -216,8 +216,8 @@ img[src*='Cooler'] {
 
 
 /* Media Queries */
-/* Mobile S */
-@media all and (max-width: 320px) {
+/* Mobile S to M to L */
+@media all and (min-width: 320px) and (max-width: 425px) {
    .links-images {
    display: flex;
    justify-content: space-between;
@@ -240,15 +240,6 @@ img[src*='Cooler'] {
  }
 }
 
-/* Mobile M */
-@media all and (max-width: 375px) {
-
-}
-
-/*Mobile L */
-@media all and (max-width: 425px) {
-
-}
 
 /* Tablet */
 @media all and (max-width: 768px ) {
@@ -256,17 +247,12 @@ img[src*='Cooler'] {
 }
 
 /* Laptop */
-@media all and (max-width: 1024px ) {
-
-}
-
-/* Laptop L */
-@media all and (max-width: 1440px) {
+@media all and (min-width: 1024px ) {
 
 }
 
 
 /* Desktop */
-@media all and (max-width: 1920px) {
+@media all and (min-width: 1920px) {
    
 }
