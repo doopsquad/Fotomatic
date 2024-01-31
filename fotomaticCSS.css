@@ -1,7 +1,6 @@
 
 body {
    font-size: 16px;
-   background-color: white;
    margin: 0px;
    padding: 0px;
    font-family: 'Roboto Mono', monospace;
@@ -14,6 +13,10 @@ header {
    display: flex;
    align-items: center;
    width: 100%;
+}
+
+.links-images {
+   display: none;
 }
 
 header p {
@@ -213,30 +216,57 @@ img[src*='Cooler'] {
 
 
 /* Media Queries */
+/* Mobile S */
 @media all and (max-width: 320px) {
+   .links-images {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-grow: 1;
+   width: 100%;
+   
+ }
 
+ #header-button {
+   background-color: green;
+   color: white;
+   font-size: 1rem;
+   width: fit-content;
+ }
+
+ 
+ header p, header a {
+   display: none;
+ }
 }
 
+/* Mobile M */
 @media all and (max-width: 375px) {
 
 }
 
+/*Mobile L */
 @media all and (max-width: 425px) {
 
 }
 
+/* Tablet */
 @media all and (max-width: 768px ) {
 
 }
 
+/* Laptop */
 @media all and (max-width: 1024px ) {
 
 }
 
+/* Laptop L */
 @media all and (max-width: 1440px) {
 
 }
 
+
+/* Desktop */
 @media all and (max-width: 1920px) {
    
 }
