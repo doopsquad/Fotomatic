@@ -101,6 +101,7 @@ header p {
    justify-content: space-between;
    background-color: gainsboro;
    padding: 4rem 3% 2.875rem;
+   flex-direction: column;
 }
 
 .desc {
@@ -237,6 +238,10 @@ img[src*='Cooler'] {
  
  header p, header a {
    display: none;
+ }
+
+ .masthead {
+   padding: 0 12rem;
  }
 }
 
